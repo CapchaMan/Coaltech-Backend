@@ -9,8 +9,20 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-your-secret-key-here'
 DEBUG = False
 
-ALLOWED_HOSTS = ['coaltech-backend.onrender.com', 'localhost', '127.0.0.1']
-CSRF_TRUSTED_ORIGINS = ['https://coaltech-backend.onrender.com']
+ALLOWED_HOSTS = [
+    'coaltech-backend-1.onrender.com',
+    'localhost',
+    '127.0.0.1'
+]
+
+CSRF_TRUSTED_ORIGINS = [
+    
+]
+
+    
+CSRF_TRUSTED_ORIGINS = [
+    'https://coaltech-backend-1.onrender.com'
+]
 
 
 # -------------------------------
